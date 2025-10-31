@@ -109,16 +109,16 @@
       "title": "Batman Begins",
       "status": "Perfect",
       "title-id": "SLUS-21198",
-      "notes": "Runs at full speed with no graphical issues",
+      "notes": "Runs at full speed with a small graphical issue on the left side of the screen",
       "region": "NTSC-U",
       "tested_socs": [
         {
           "soc_name": "SD 888",
-          "vulkan_status": "Perfect",
+          "vulkan_status": "Playable",
           "opengl_status": "Playable" 
         }
       ],
-      "version": "1.0.2"
+      "version": "1.0.3"
     },
     {
       "title": "God of War II",
@@ -387,7 +387,8 @@
           "vulkan_status": "Menu",
           "opengl_status": "Menu"
         }
-      ]
+      ],
+      "version": "1.0.0 Debug"
     },
     {
       "title": "Dragon ball Z Budokai tenkaichi 3",
