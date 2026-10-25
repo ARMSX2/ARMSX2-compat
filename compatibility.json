@@ -437,3 +437,19 @@
     }
   ]
 }
+ 
+{
+  "title": "Splinter Cell: Double Agent",
+  "status": "Perfect",
+  "title-id": "SLUS-21356",
+  "notes": "Runs at full speed at 1.25x native resolution on MediaTek Dimensity 6300.",
+  "region": "NTSC-U",
+  "tested_socs": [
+    {
+      "soc_name": "MT6835T",
+      "vulkan_status": "Perfect",
+      "opengl_status": "Untested"
+    }
+  ]
+}
+
