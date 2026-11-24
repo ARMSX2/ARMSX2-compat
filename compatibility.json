@@ -439,13 +439,12 @@
       "title": "Need For Speed - Underground 2",
       "status": "Perfect",
       "title-id": "SLUS-21065",
-      "notes": "Locked 60 fps (59.1 to 59.9) over an 8 minute session at native resolution with JIT enabled, including during the first minutes. EE load 27 to 35 percent. No graphical or audio issues observed. iOS build using the Metal renderer, so both renderer fields below hold the Metal result. Tested on iOS 27.2.1, JIT enabled through StikDebug with universal.js.",
+      "notes": "Held 59.1 to 59.9 fps (average 59.8) through about 5.8 minutes of gameplay at native resolution with JIT enabled, starting from the first seconds after the game booted. EE load 28 to 35 percent. No graphical or audio issues observed. The log reports three \"Stretch is an unknown aspect ratio\" patch errors at boot, so an aspect ratio patch may not apply. iOS build using the Metal renderer. Tested on iOS 27.2.1 with JIT enabled through StikDebug and universal.js.",
       "region": "NTSC-U",
       "tested_socs": [
         {
           "soc_name": "Apple A16 (iPhone 15 Plus)",
-          "vulkan_status": "Perfect",
-          "opengl_status": "Perfect"
+          "metal_status": "Perfect"
         }
       ],
       "version": "2.6.0 (iOS)"
