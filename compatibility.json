@@ -434,6 +434,34 @@
         }
       ],
       "version": "1.0.2"
+    },
+    {
+      "title": "Need For Speed - Underground 2",
+      "status": "Perfect",
+      "title-id": "SLUS-21065",
+      "notes": "Held 59.0 to 59.9 fps (average 59.87) through about 22.8 minutes of continuous gameplay at native resolution with JIT enabled, measured from the log (45 samples, 1 below 59.5 fps). EE load 19 to 39 percent (average 29), GS 4 to 36 percent, GPU 3 to 36 percent. An earlier session of about 5.8 minutes gave the same result (59.1 to 59.9 fps). The tester reported no graphical or audio issues in the earlier session; this longer session was not reviewed for them. The log reports three \"Stretch is an unknown aspect ratio\" patch errors at boot, so an aspect ratio patch may not apply. A wired USB-C controller was detected by the app. The log does not record device temperature. iOS build using the Metal renderer. Tested on iOS 27.2.1 with JIT enabled through StikDebug and universal.js.",
+      "region": "NTSC-U",
+      "tested_socs": [
+        {
+          "soc_name": "Apple A16 (iPhone 15 Plus)",
+          "metal_status": "Perfect"
+        }
+      ],
+      "version": "2.6.0 (iOS)"
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas",
+      "status": "Perfect",
+      "title-id": "SLUS-20946",
+      "notes": "Held 59.6 to 60.0 fps (average 59.8) through about 4 minutes of early gameplay at native resolution with JIT enabled. EE load 25 to 40 percent. The tester reported smooth gameplay. The session was short, so later and busier areas were not covered. iOS build using the Metal renderer. Tested on iOS 27.2.1 with JIT enabled through StikDebug and universal.js.",
+      "region": "NTSC-U",
+      "tested_socs": [
+        {
+          "soc_name": "Apple A16 (iPhone 15 Plus)",
+          "metal_status": "Perfect"
+        }
+      ],
+      "version": "2.6.0 (iOS)"
     }
   ]
 }
