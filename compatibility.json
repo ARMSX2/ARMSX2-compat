@@ -448,6 +448,20 @@
         }
       ],
       "version": "2.6.0 (iOS)"
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas",
+      "status": "Perfect",
+      "title-id": "SLUS-20946",
+      "notes": "Held 59.6 to 60.0 fps (average 59.8) through about 4 minutes of early gameplay at native resolution with JIT enabled. EE load 25 to 40 percent. The tester reported smooth gameplay. The session was short, so later and busier areas were not covered. iOS build using the Metal renderer. Tested on iOS 27.2.1 with JIT enabled through StikDebug and universal.js.",
+      "region": "NTSC-U",
+      "tested_socs": [
+        {
+          "soc_name": "Apple A16 (iPhone 15 Plus)",
+          "metal_status": "Perfect"
+        }
+      ],
+      "version": "2.6.0 (iOS)"
     }
   ]
 }
